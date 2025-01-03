@@ -1,0 +1,266 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* General Nav Bar Styles */
+nav {
+  background-color: #1950bc;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  padding: 0px 20px; /* Reduced padding for a more compact design */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 1000;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center; /* Center items vertically */
+}
+
+body {
+  margin-top: 60px; /* Add space equivalent to the navbar height */
+}
+
+nav .logo {
+  font-size: 2rem; /* Adjust font size for the logo */
+  font-weight: bold; /* Make the logo bold */
+  color: #fff; /* Logo text color */
+  text-decoration: none; /* Remove underline */
+  max-height: 50px; /* Set a maximum height for the logo */
+  display: flex; /* Flexbox to center the logo */
+  align-items: center; /* Center logo vertically */
+}
+
+nav .logo img {
+  width: 95px; /* Adjust logo size */
+  height: 95px; /* Adjust logo size */
+  margin-right: 10px; /* Space between logo and text */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+nav .logo img:hover {
+  transform: scale(1.2); /* Increases size on hover */
+  filter: drop-shadow(
+    0px 0px 8px rgba(0, 0, 0, 0.3)
+  ); /* Adds shadow on hover */
+}
+
+nav .logo:hover {
+  text-decoration: underline; /* Add underline on hover for emphasis */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Flexbox for horizontal layout */
+  align-items: center; /* Center items vertically */
+  justify-content: flex-start;
+}
+
+nav ul li {
+  position: relative;
+  margin: 0 10px; /* Reduced space between nav items */
+}
+
+nav ul li a {
+  font-size: 1.4rem;
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Text color */
+  padding: 6px 10px; /* Reduced padding for nav links */
+  border-radius: 5px; /* Rounded edges */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav ul li a:hover {
+  background-color: #575757; /* Change background on hover */
+}
+
+/* Dropdown Styles */
+nav ul li ul {
+  display: none; /* Hide dropdown by default */
+  position: absolute; /* Position dropdown relative to parent */
+  top: 35px; /* Adjusted dropdown distance */
+  left: 0; /* Align with parent */
+  background-color: #444; /* Dropdown background */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 5px; /* Rounded edges */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+nav ul li ul li {
+  margin: 0; /* Reset margin for dropdown items */
+}
+
+nav ul li ul li a {
+  padding: 8px 15px; /* Adjusted padding for dropdown items */
+  display: block; /* Make dropdown links block-level */
+}
+
+nav ul li ul li a:hover {
+  background-color: #76c6d1; /* Change background on hover */
+}
+
+/* Show Dropdown on Hover */
+nav ul li:hover ul {
+  display: block; /* Show dropdown on hover */
+}
+
+/* Responsive Nav Bar */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+  nav ul li {
+    margin: 5px 0; /* Add space between items */
+  }
+}
+
+/* Homepage Styles */
+.homepage {
+  margin-top: 80px; /* Adjust to avoid overlap with navbar */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-section h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.welcome-section p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.welcome-section .btn-start-polling {
+  padding: 10px 20px;
+  background-color: #1950bc;
+  color: white;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.welcome-section .btn-start-polling:hover {
+  background-color: #4fa3d1;
+}
+
+.features-section {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 280px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.feature h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.feature p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.call-to-action {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.call-to-action h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.call-to-action p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.call-to-action .btn-signup {
+  padding: 12px 25px;
+  background-color: #1950bc;
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.call-to-action .btn-signup:hover {
+  background-color: #4fa3d1;
+}

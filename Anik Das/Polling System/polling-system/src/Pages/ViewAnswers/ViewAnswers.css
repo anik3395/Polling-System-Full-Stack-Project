@@ -1,0 +1,41 @@
+.view-answers-container {
+    padding: 55px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+  }
+  
+  .answers-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  .answers-table th,
+  .answers-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .answers-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .answers-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .answers-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  

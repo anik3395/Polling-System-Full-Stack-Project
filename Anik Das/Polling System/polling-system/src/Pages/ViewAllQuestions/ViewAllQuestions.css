@@ -1,0 +1,45 @@
+.view-all-questions-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .question-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .question-item h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .question-item p {
+    color: #555;
+  }
+  
+  .question-item ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .question-item li {
+    margin: 5px 0;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  

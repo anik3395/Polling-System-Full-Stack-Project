@@ -1,0 +1,51 @@
+.logout-container {
+    margin: 2rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .form-group {
+    margin: 1rem 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .logout-btn {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .logout-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  

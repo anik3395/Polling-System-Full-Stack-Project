@@ -1,0 +1,106 @@
+/* General Container */
+.manage-questions-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Page Title */
+  .page-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Question Actions */
+  .question-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .add-btn, .view-all-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .add-btn {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .view-all-btn {
+    background-color: #2196F3; /* Blue */
+  }
+  
+  .add-btn:hover, .view-all-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* Question List */
+  .question-list {
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  /* Table Styling */
+  .question-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .question-table th, .question-table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .question-table th {
+    background-color: #f2f2f2;
+    color: #555;
+  }
+  
+  .question-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #FF9800; /* Orange */
+  }
+  
+  .delete-btn {
+    background-color: #F44336; /* Red */
+  }
+  
+  .edit-btn:hover, .delete-btn:hover {
+    opacity: 0.9;
+  }
+  

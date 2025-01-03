@@ -1,0 +1,102 @@
+.specific-admin {
+    margin: 20px auto;
+    font-family: 'Roboto', sans-serif;
+    max-width: 600px;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .email-input {
+    margin-bottom: 30px; /* Increased margin between the input and the button */
+    text-align: left;
+  }
+  
+  .email-input label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .email-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .fetch-btn {
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px; /* Added margin-top to add space between the input and the button */
+  }
+  
+  .fetch-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .fetch-btn:active {
+    transform: translateY(0);
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+  
+  .results-container {
+    margin-top: 30px;
+  }
+  
+  .result-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  .result-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #333;
+    font-size: 20px;
+  }
+  
